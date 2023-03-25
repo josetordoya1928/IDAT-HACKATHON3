@@ -9,3 +9,6 @@ form:hover {
     background-color: rgb(192, 184, 184);
 }
 
+form input:invalid {
+    border: 2px dashed red;
+}
