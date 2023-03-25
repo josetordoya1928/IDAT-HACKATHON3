@@ -1,0 +1,11 @@
+form {
+    padding: 10%;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+form:hover {
+    background-color: rgb(192, 184, 184);
+}
+

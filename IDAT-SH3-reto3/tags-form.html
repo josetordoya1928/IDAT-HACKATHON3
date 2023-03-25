@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>FORMULARIO</title>
+</head>
+<body>
+  <h1>FORMULARIO DE CONTACTO</h1>
+  <h2>Escríbenos y en breve nos pondremos en contacto contigo</h2>
+  <form action="./message_r2.html">
+    <label for="name">Nombre*</label>
+    <input id="name" type="text" placeholder="Escribe tu nombre" required>
+
+    <label for="email">Email*</label>
+    <input id="email" type="email" placeholder="Escribe tu email" required>
+
+    <label for="phone">Teléfono</label>
+    <input id="phone" type="number" placeholder="Escribe tu teléfono">
+
+    <label for="web">Sitio web</label>
+    <input id="web" type="text" placeholder="Escribe la URL de tu sitio web">
+
+    <label for="topic">Asuto*</label>
+    <input id="topic" type="text" placeholder="Escribe tu asunto" required>
+
+    <label for="message">Mensaje*</label>
+    <textarea name="mensaje" id="message" cols="30" rows="10" required></textarea>
+
+    <button>ENVIAR</button>
+
+    <h3>* los campos son obligatorios</h3>
+  </form>
+</body>
+</html>

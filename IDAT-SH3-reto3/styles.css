@@ -1,0 +1,18 @@
+html {
+  background-color: rgb(180, 32, 148);  
+}
+
+h1 {
+  color: rgb(180, 32, 148);
+}
+
+body{
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
