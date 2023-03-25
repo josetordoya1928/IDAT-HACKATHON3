@@ -1,0 +1,45 @@
+h1 {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: rgb(66, 143, 206);
+  width: 600;
+  height: 400;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: rgb(38, 38, 48);
+  color: white;
+}
+
+section {
+  margin: auto;
+  width:420px;
+  height:100px;
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 40px 40px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+textarea {
+  width: 420px;
+  height: 70px;
+  margin: auto;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+}
